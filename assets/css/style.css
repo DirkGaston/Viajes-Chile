@@ -69,3 +69,52 @@ body {
 
 }
 
+/* Nosotros */
+
+#Nosotros h2{
+    font-weight: 400;
+}
+  
+#Nosotros i{
+    text-align: center;
+    width: 100%;
+    color: white;
+}
+
+#Nosotros p{
+    font-weight: 300;
+}
+
+/* Destacados */
+
+#Destacados .image-top {
+    height: 150px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#Destacados .card-title {
+    font-family: 'Merriweather', serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+
+
+}
+
+#Destacados .card-text {
+    font-family: 'Raleway', serif;
+    font-size: 1rem;
+    font-weight: 300;
+
+
+}
+
+/* Contacto */
+
+#Contacto label {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color: white;
+
+}
