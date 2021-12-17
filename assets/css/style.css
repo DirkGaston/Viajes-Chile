@@ -1,9 +1,5 @@
-/* Reset */
-
-* {
-    margin: 0;
-    border: 0;
-    padding: 0;
+html {
+    scroll-behavior: auto !important;
 }
 
 /* Body */
@@ -23,6 +19,10 @@ body {
 
 
 /* Carousel */
+
+/* Aquí intenté ajustar el view height de los carousel items para que ocuparan sólo el
+alto de la pantalla y la sección de NOSOTROS empezara justo debajo sin necesidad de scrollear parte de la imagen.
+Me resulta pero cuando hay transición de un item al siguiente el alto de la imagen vuelve a ser el completo y tapa la sección. */
 
 /* .carousel, .item, .active {
     height:100vh;
@@ -76,4 +76,26 @@ body {
     font-weight: 400;
     color: white;
 
+
 }
+
+#Contacto p {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color: white;
+}
+
+
+/* Footer */
+
+footer h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+
+}
+
+footer a {
+color: white;
+text-decoration: none;
+}
+
